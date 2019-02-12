@@ -1,0 +1,145 @@
+
+# Created by https://www.gitignore.io/api/java,maven,intellij
+# Edit at https://www.gitignore.io/?templates=java,maven,intellij
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+deep-segment-core/.idea/**/workspace.xml
+deep-segment-core/.idea/**/tasks.xml
+deep-segment-core/.idea/**/usage.statistics.xml
+deep-segment-core/.idea/**/dictionaries
+deep-segment-core/.idea/**/shelf
+deep-segment-core/.idea/**/workspace.xml
+deep-segment-spring/.idea/**/tasks.xml
+deep-segment-spring/.idea/**/usage.statistics.xml
+deep-segment-spring/.idea/**/dictionaries
+deep-segment-spring/.idea/**/shelf
+
+# Generated files
+deep-segment-core/.idea/**/contentModel.xml
+deep-segment-spring/.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+deep-segment-core/.idea/**/dataSources/
+deep-segment-core/.idea/**/dataSources.ids
+deep-segment-core/.idea/**/dataSources.local.xml
+deep-segment-core/.idea/**/sqlDataSources.xml
+deep-segment-core/.idea/**/dynamic.xml
+deep-segment-core/.idea/**/uiDesigner.xml
+deep-segment-core/.idea/**/dbnavigator.xml
+deep-segment-spring/.idea/**/dataSources/
+deep-segment-spring/.idea/**/dataSources.ids
+deep-segment-spring/.idea/**/dataSources.local.xml
+deep-segment-spring/.idea/**/sqlDataSources.xml
+deep-segment-spring/.idea/**/dynamic.xml
+deep-segment-spring/.idea/**/uiDesigner.xml
+deep-segment-spring/.idea/**/dbnavigator.xml
+
+# Gradle
+deep-segment-core/.idea/**/gradle.xml
+deep-segment-core/.idea/**/libraries
+deep-segment-spring/.idea/**/gradle.xml
+deep-segment-spring/.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+deep-segment-core/.idea/**/mongoSettings.xml
+deep-segment-spring/.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+deep-segment-core/out/
+deep-segment-spring/out/
+
+# mpeltonen/sbt-idea plugin
+deep-segment-core/.idea_modules/
+deep-segment-spring/.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+deep-segment-core/.idea/replstate.xml
+deep-segment-spring/.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+deep-segment-core/.idea/httpRequests
+deep-segment-spring/.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+deep-segment-core/.idea/caches/build_file_checksums.ser
+deep-segment-spring/.idea/caches/build_file_checksums.ser
+
+### Intellij Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
+
+# Sonarlint plugin
+deep-segment-core/.idea/sonarlint
+deep-segment-spring/.idea/sonarlint
+
+### Java ###
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+deep-segment-core/.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+### Maven ###
+deep-segment-core/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+deep-segment-core/.mvn/timing.properties
+deep-segment-core/.mvn/wrapper/maven-wrapper.jar
+deep-segment-spring/.mvn/timing.properties
+deep-segment-spring/.mvn/wrapper/maven-wrapper.jar
+
+# End of https://www.gitignore.io/api/java,maven,intellij
